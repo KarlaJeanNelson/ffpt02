@@ -33,7 +33,10 @@
 </head>
 
 <body>
-  <img class="img-responsive" src="ff_background.png" width="100%">
+  <picture>
+    <source srcset="bg-vert.png" media="(max-width: 800px)" class="img-responsive">
+    <img src="bg-horz.png" class="img-responsive">
+  </picture>
   <div id="root"></div>
 
   <!-- Optional JavaScript -->
